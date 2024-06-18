@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "dc787945-31c9-45f5-b440-4df48ed776e9",
+		"name": "Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30686826"
+	},
+	"item": [
+		{
+			"name": "PostImage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/carto/Downloads/images.jpeg"
+						}
+					]
+				},
+				"url": "http://localhost:5000/predict"
+			},
+			"response": []
+		}
+	]
+}
